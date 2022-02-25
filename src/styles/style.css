@@ -1,0 +1,468 @@
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../font/PoetsenOne-Regular.ttf);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: url(/src/img/encanto-wallpaper_phone.jpg);
+    background-color: #cccccc;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: PoetsenOne;
+
+}
+
+figcaption{
+    display: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.insiraPergunta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 304px;
+    height: 496px;
+    margin-top: 15px;
+}
+
+.insiraPergunta__titulo {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+
+.insiraPergunta__imagem img {
+    margin-top: 20px;
+    width: 234px;
+    height: 88px;
+}
+
+.insiraPergunta__musica{
+    width: 32px;
+    height: 32px;
+    margin-top: -84px;
+    margin-left: 250px;
+}
+
+.insiraPergunta__imagem--prevendo img {
+    margin-top: 50%;
+    width: 283px;
+    height: 194px;
+}
+
+.insiraPergunta input {
+    background-color: #AFAFAF;
+    border-radius: 8px;
+    border: transparent;
+    text-align: center;
+    width: 213px;
+}
+
+.insiraPergunta input::placeholder {
+    font-family: PoetsenOne;
+    color: black;
+}
+
+.insiraPergunta input:defined {
+    font-family: PoetsenOne;
+    color: black;
+}
+
+.insiraPergunta button {
+    color: #9DBE64;
+    background-color: #646464;
+    border-radius: 7px;
+    border: transparent;
+    text-align: center;
+    font-family: PoetsenOne;
+    margin-top: 6px;
+    width: 148px;
+
+}    
+
+.insiraPergunta__erro{
+    color: white;
+}
+
+
+.resposta {
+    width: 304px;
+    height: 496px;
+    position: relative;
+}
+
+.resposta__balao img {
+    width: 171px;
+    height: 117px;
+    position: absolute;
+    left: 11%;
+    top: 36%;
+}
+
+.resposta__bruno img {
+    width: 149px;
+    height: 206px;
+    position: absolute;
+    left: 52%;
+    top: 41.2%;
+}
+
+.textoPergunta {
+    color: white;
+    max-width: 304px;
+    margin-top: 72px;
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+
+.textoResposta {
+    position: absolute;
+    left: 29%;
+    top: 44%;
+    font-size: 24px;
+}
+
+.reiniciar {
+    color: white;
+    background-color: #646464;
+    border-radius: 7px;
+    border: transparent;
+    text-align: center;
+    font-family: PoetsenOne;
+    font-size: 16px;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.reiniciar:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(/src/img/encanto-wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    
+    }
+
+    .insiraPergunta {
+        width: 407px;
+        height: 258px;
+        margin-right: 304px;
+        margin-top: 71px;
+    }
+
+    .insiraPergunta__imagem img {
+        width: 172px;
+        height: 74px;
+    }
+
+    .insiraPergunta__musica{
+        margin-left: 328px;
+    }
+
+    .insiraPergunta__titulo {
+        margin-top: 66px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .insiraPergunta input {
+        width: 293px;
+        height: 21px;
+        font-size: 15px;
+    }
+
+    .insiraPergunta button {
+        margin-top: 7px;
+        width: 177px;
+        font-size: 15px;
+    } 
+
+    .insiraPergunta__imagem--prevendo img{
+        margin-top: 25%;
+        width: 238px;
+        height: 153px;
+    }
+
+    .textoPergunta {
+        font-size: 20px;
+        margin-top: 57px;
+    }
+
+    .resposta__balao img{
+        width: 99px;
+        height: 62px;
+        position: absolute;
+        left: 57%;
+        top: 10%;
+    }
+    
+    .resposta__bruno img{
+        width: 117px;
+        height: 128px;
+        position: absolute;
+        left: 80%;
+        top: 6.3%;
+    }
+    
+    .textoResposta {
+        position: absolute;
+        left: 66%;
+        top: 20%;
+        font-size: 18px;
+    }
+
+    .reiniciar {
+        font-size: 14px;
+        width: 133px;
+        height: 24px;
+        margin-top: -24px;
+        margin-left: 284px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .insiraPergunta {
+        width: 524px;
+        height: 355px;
+        margin-right: 413px;
+        margin-top: 99px;
+    }
+
+    .insiraPergunta__titulo {
+        font-size: 28px;
+    }
+
+    .insiraPergunta__musica{
+        margin-left: 445px;
+    }
+
+    .insiraPergunta input {
+        width: 368px;
+        height: 25px;
+        font-size: 18px;
+    } 
+
+    .insiraPergunta button {
+        margin-top: 16px;
+        width: 286px;
+        font-size: 22px;
+    } 
+
+    .insiraPergunta__erro{
+        font-size: 20px;
+        margin-top: 13px;
+    }
+
+
+    .insiraPergunta__imagem--prevendo img{
+        width: 312px;
+        height: 207px;
+    }
+    
+    .resposta__balao img{
+        top: 20%;
+        left: 45%;
+        width: 140px;
+        height: 80px;
+    }
+
+    .resposta__bruno img{
+        width: 200px;
+        height: 212px;
+        left: 74%;
+        top: 9%;
+    }
+
+    .textoResposta {
+        top: 28%;
+        left: 61%;
+    }
+
+    .reiniciar {
+        margin-left: 314px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .insiraPergunta {
+        width: 807px;
+        height: 555px;
+        margin-right: 550px;
+        margin-top: 156px;
+    }
+
+    .insiraPergunta__titulo {
+        font-size: 38px;
+    }
+
+    .insiraPergunta input {
+        width: 500px;
+        height: 32px;
+        font-size: 22px;
+    } 
+
+    .insiraPergunta button {
+        margin-top: 16px;
+        width: 286px;
+        height: 35px;
+        font-size: 22px;
+    } 
+
+    .insiraPergunta__imagem--prevendo img{
+        width: 460px;
+        height: 318px;
+    }
+
+    .insiraPergunta__musica{
+        margin-left: 692px;
+        width: 46px;
+        height: 46px;
+    }
+
+    .textoPergunta {
+        font-size: 32px;
+        margin-top: 64px;
+    }
+    
+    .resposta__balao img{
+        top: 23%;
+        left: 35%;
+        width: 206px;
+        height: 128px;
+    }
+
+    .resposta__bruno img{
+        width: 362px;
+        height: 350px;
+        left: 71%;
+        top: 12.4%;
+    }
+
+    .textoResposta {
+        top: 30%;
+        left: 56%;
+        font-size: 32px;
+    }
+
+    .reiniciar {
+        margin-left: 525px;
+        margin-top: -33px;
+        width: 187px;
+        height: 34px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .insiraPergunta {
+        width: 1300px;
+        height: 800px;
+        margin-right: 1050px;
+        margin-top: 256px;
+    }
+
+    .insiraPergunta__imagem img {
+        width: 605px;
+        height: 224px;
+    }
+
+    .insiraPergunta__musica{
+        margin-left: 1123px;
+        margin-top: -206px;
+        width: 72px;
+        height: 72px;
+    }
+
+    .insiraPergunta__titulo {
+        font-size: 70px;
+        margin-bottom: 36px;
+        margin-top: 181px;
+    }
+
+    .insiraPergunta input {
+        width: 800px;
+        height: 60px;
+        font-size: 40px;
+        border-radius: 17px;
+    } 
+
+    .insiraPergunta button {
+        margin-top: 35px;
+        width: 443px;
+        height: 59px;
+        font-size: 39px;
+        border-radius: 15px;
+    }
+
+    .insiraPergunta__erro{
+        font-size: 48px;
+        margin-top: 23px;
+    }
+
+    .insiraPergunta__imagem--prevendo img{
+        width: 695px;
+        height: 466px;
+    }
+
+    .textoPergunta {
+        font-size: 50px;
+        margin-top: 161px;
+    }
+    
+    .resposta__balao img{
+        width: 300px;
+        height: 200px;
+        top: 16%;
+        left: 50%;
+    }
+
+    .resposta__bruno img{
+        width: 440px;
+        height: 451px;
+        left: 126%;
+        top: 5.4%;
+    }
+
+    .textoResposta {
+        top: 26%;
+        left: 80%;
+        font-size: 42px;
+    }
+
+    .reiniciar {
+        font-size: 47px;
+        width: 282px;
+        height: 63px;
+        margin-top: -65px;
+        margin-left: 661px;
+    }
+
+}

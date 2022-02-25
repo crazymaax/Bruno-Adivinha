@@ -2,6 +2,7 @@
 
 Jogo onde é necessário fazer uma pergunta ao Bruno e que irá prever o futuro! com respostas do tipo Sim, Não e talvez.
 
+Principais créditos vão a Disney por produzir a obra que inspirou o projeto.\
 Créditos a arte da resposta do Bruno são de nikkithecryptid | <a href="https://mobile.twitter.com/StarrBeast">@StarrBeast</a>
 
 <div align="center">
@@ -14,3 +15,5 @@ Créditos a arte da resposta do Bruno são de nikkithecryptid | <a href="https:/
   
 </div>
 
+##
+> **Bugs conhecidos:** Gif não está sincronizado - *não consegui ferramentas para detectar a duração e assim aplicar no script.*

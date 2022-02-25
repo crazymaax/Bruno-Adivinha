@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno Adivinha</title>
+  <link rel="shortcut icon" href="./src/img/disney-icon.png">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+
+  <audio id="musica" loop>
+    <source src="./src/music/Não_Falamos_do_Bruno.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <main>
+
+    <div class="insiraPergunta">
+      <figure class="insiraPergunta__imagem">
+        <img src="./src/img/Disney's_Encanto_logo.png" alt="Logo de Encanto">
+        <figcaption>Logo de Encanto</figcaption>
+      </figure>
+
+      <img src="./src/img/botaoMutado.png" class="insiraPergunta__musica" alt="Botão para iniciar música">
+
+      <h1 class="insiraPergunta__titulo">Bruno ira adivinhar seu futuro!</h1>
+
+      <input type="text" name="pergunta" id="pergunta" placeholder="Digite sua pergunta">
+      <button id="botaoDestino">Trace seu destino!</button>
+    </div>
+
+  </main>
+
+  <script type="module" src="./src/script.js"></script>
+</body>
+</html>

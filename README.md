@@ -15,5 +15,7 @@ Créditos a arte da resposta do Bruno são de nikkithecryptid | <a href="https:/
   
 </div>
 
+Design do projeto feito no <a href="https://www.figma.com/file/MlHCy6n9k2Ze8CWaGdKDwu/Bruno-Adivinha">Figma</a>
+
 ##
 > **Bugs conhecidos:** Gif não está sincronizado - *não consegui ferramentas para detectar a duração e assim aplicar no script.*

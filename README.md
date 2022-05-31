@@ -15,6 +15,8 @@ Créditos a arte da resposta do Bruno são de nikkithecryptid | <a href="https:/
   
 </div>
 
+Jogue clicando <a href="https://crazymaax.github.io/Bruno-Adivinha/">aqui!</a>
+
 Design do projeto feito no <a href="https://www.figma.com/file/MlHCy6n9k2Ze8CWaGdKDwu/Bruno-Adivinha">Figma</a>
 
 ##
